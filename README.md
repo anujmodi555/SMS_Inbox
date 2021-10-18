@@ -1,13 +1,15 @@
 # SMS_Inbox
-Prerequisites
-1. Postgres >= 11
-2. Python >= 3
+Pre Requisites
+1. Postgres >= 11.0
+2. Python >= 3.0
 
-Create a virtual environment and activate it
-Install requirements.txt for installing all dependencies
-Navigate to project directory
-# start the server
-RUN python app.py 
+# Create Virtual Environment And Activate
+Install requirements.txt using "pip install -r requirements.txt" using this command. 
+This will install all dependencies related to module. 
 
-#Navigate to URL 
-localhost:5000/
+Then Navigate to project directory
+# Start the server using below command
+python app.py 
+
+# Navigate to URL 
+http://localhost:5000/
