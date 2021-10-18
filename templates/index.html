@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>SMS App</title>
+  </head>
+  <body>
+      <form action="{{ url_for('sendSMS')}}" method="post">
+          <h5>SMS INBOX</h5>
+          <div>
+              <input type="text" name="senderPhone" placeholder="senderPhone">
+          </div>
+          <div>
+              <input type="text" name="receiverPhone" placeholder="receiverPhone">
+          </div>
+          <div>
+              <input type="text" name="messageText" placeholder="messageText">
+          </div>
+          <div>
+              <button >Send</button>
+          </div>
+      </form>
+  </body>
+
+</html>
