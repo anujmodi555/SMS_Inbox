@@ -8,3 +8,6 @@ Install requirements.txt for installing all dependencies
 Navigate to project directory
 # start the server
 RUN python app.py 
+
+#Navigate to URL 
+localhost:5000/
